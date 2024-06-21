@@ -77,7 +77,7 @@ export const TodoList: React.FC = () => {
         >
           Remove all complete tasks
         </Button>
-        {(values as Todo)?.id !== undefined && <Button onClick={() => setValues(null)}>Cancel edition</Button>}
+        {(values as Todo)?.id !== undefined && <Button onClick={() => setValues(null)}>Cancel Edit</Button>}
       </div>
     </Container>
   );
