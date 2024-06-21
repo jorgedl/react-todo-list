@@ -33,6 +33,7 @@ This approach helps in managing the complexity of the application as it grows an
 
 ## Project Structure
 
+```sh
 src/
 ├─ assets/
 │ ├─ icons/
@@ -44,6 +45,7 @@ src/
 ├─ types/
 ├─ pages/
 └─ routes/
+```
 
 ## Getting Started
 
