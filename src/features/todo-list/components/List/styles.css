@@ -1,4 +1,7 @@
 .todo-list {
+  max-height: 30rem;
+  overflow-y: auto;
+
   &--empty {
     padding: var(--padding-md) 0;
   }
