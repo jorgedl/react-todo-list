@@ -46,7 +46,6 @@ export const TodoList: React.FC = () => {
 
   const onCheck: TodoActions['onCheck'] = (id) => {
     complete(id);
-    inputRef?.current?.focus();
   };
 
   return (
