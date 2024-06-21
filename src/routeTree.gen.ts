@@ -1,3 +1,7 @@
+/* prettier-ignore-start */
+
+/* eslint-disable */
+
 // @ts-nocheck
 
 // noinspection JSUnusedGlobalSymbols
@@ -33,6 +37,8 @@ declare module '@tanstack/react-router' {
 // Create and export the route tree
 
 export const routeTree = rootRoute.addChildren({ IndexRoute })
+
+/* prettier-ignore-end */
 
 /* ROUTE_MANIFEST_START
 {
