@@ -1,0 +1,28 @@
+.button {
+  border-radius: var(--border-radius);
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: .75rem;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &--small {
+    padding: var(--padding-sm) var(--padding-md);
+  }
+
+
+  &--medium {
+    padding: var(--padding-md) var(--padding-lg);
+    
+  }
+
+
+  &--large {
+    padding: var(--padding-md) var(--padding-xl);
+  }
+}

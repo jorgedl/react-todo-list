@@ -1,0 +1,11 @@
+.todo {
+
+  &__title {
+    margin-bottom: var(--margin-md);
+  }
+
+  &__actions {
+    display: flex;
+    gap: var(--margin-sm);
+  }
+}

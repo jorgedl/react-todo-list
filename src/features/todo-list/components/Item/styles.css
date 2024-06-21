@@ -1,0 +1,29 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--margin-sm);
+
+  &__label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  &__name {
+    overflow: hidden;
+    flex: 1;
+    text-overflow: ellipsis;
+
+    &--complete {
+      text-decoration: line-through;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: var(--margin-sm);
+  }
+}

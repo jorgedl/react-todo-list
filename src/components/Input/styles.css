@@ -1,0 +1,14 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--margin-sm);
+
+  &__label {
+    margin-bottom: var(--margin-sm);
+  }
+
+  &__field {
+    height: var(--input-size);
+    border-radius: var(--border-radius);
+  }
+}

@@ -1,0 +1,13 @@
+.container {
+  padding: var(--padding-lg);
+  margin: var(--margin-lg);
+  background: var(--container);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin: var(--padding-md);
+  width: calc(100% - 2 * var(--padding-lg));
+
+  &--small {
+    max-width: 25rem;
+  }
+}

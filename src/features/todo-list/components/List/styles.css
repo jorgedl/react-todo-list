@@ -1,0 +1,5 @@
+.todo-list {
+  &--empty {
+    padding: var(--padding-md) 0;
+  }
+}

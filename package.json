@@ -1,0 +1,56 @@
+{
+  "name": "react-todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "tsc --noEmit -p tsconfig.json && biome lint --diagnostic-level=error --no-errors-on-unmatched",
+    "lint:fix": "biome check --write --unsafe",
+    "lint:staged": "biome check --error-on-warnings --no-errors-on-unmatched --staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgedl/react-todo-list.git"
+  },
+  "author": "Jorge De Lucca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgedl/react-todo-list/issues"
+  },
+  "homepage": "https://github.com/jorgedl/react-todo-list#readme",
+  "dependencies": {
+    "@tanstack/react-router": "^1.39.7",
+    "classnames": "^2.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.2",
+    "@tanstack/router-devtools": "^1.39.4",
+    "@tanstack/router-plugin": "^1.39.5",
+    "@testing-library/dom": "^10.1.0",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^20.14.6",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "husky": "^9.0.11",
+    "jsdom": "^24.1.0",
+    "postcss-nested": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
+    "vite": "^5.3.1",
+    "vite-plugin-svgr": "^4.2.0",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^1.6.0"
+  }
+}
